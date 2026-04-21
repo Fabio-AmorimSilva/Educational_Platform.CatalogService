@@ -1,5 +1,6 @@
 namespace EducationalPlatform.Services.CatalogService.Api.Controllers;
 
+[ApiController]
 public class BaseController : ControllerBase
 {
     private readonly UseCaseValidation _validation;

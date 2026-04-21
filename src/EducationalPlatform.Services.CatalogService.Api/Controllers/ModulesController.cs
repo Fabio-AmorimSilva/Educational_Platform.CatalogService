@@ -1,5 +1,6 @@
 ﻿namespace EducationalPlatform.Services.CatalogService.Api.Controllers;
 
+[Route("api/modules")]
 public class ModulesController(
     UseCaseValidation validation
 ) : BaseController(validation)
