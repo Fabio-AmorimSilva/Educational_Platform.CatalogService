@@ -12,5 +12,11 @@ public static class Queries
     public const string UpdateCourse = "UPDATE Courses SET Name = @Name, Description = @Description, Cover = @Cover WHERE Id = @Id";
     public const string DeleteCourse = "DELETE FROM Courses WHERE Id = @Id";
     public const string GetCourse = "SELECT * FROM Courses WHERE Id = @Id";
-    public const string GetAllCourse = "SELECT * FROM Courses";
+    public const string GetAllCourses = "SELECT * FROM Courses";
+
+    public const string InsertModule = "INSERT INTO Modules (Id, CourseId, Name, Description) VALUES (@Id, @CourseId, @Name, @Description)";
+    public const string UpdateModule = "UPDATE Modules SET CourseId = @CourseId, Name = @Name, Description = @Description WHERE Id = @Id";
+    public const string DeleteModule = "DELETE FROM Modules WHERE Id = @Id";
+    public const string GetModule = "SELECT * FROM Modules WHERE Id = @Id";
+    public const string GetAllModules = "SELECT * FROM Modules";
 }

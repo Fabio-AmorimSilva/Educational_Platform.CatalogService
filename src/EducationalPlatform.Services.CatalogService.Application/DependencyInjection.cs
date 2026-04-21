@@ -27,7 +27,13 @@ public static class DependencyInjection
             services.AddScoped<ICreateCourseUseCase, CreateCourseUseCase>();
             services.AddScoped<UpdateCourseUseCase, UpdateCourseUseCase>();
             services.AddScoped<DeleteCourseUseCase, DeleteCourseUseCase>();
-
+            
+            services.AddScoped<IGetModuleUseCase, GetModuleUseCase>();
+            services.AddScoped<IListModulesUseCase, ListModulesUseCase>();
+            services.AddScoped<CreateModuleUseCase, CreateModuleUseCase>();
+            services.AddScoped<UpdateModuleUseCase, UpdateModuleUseCase>();
+            services.AddScoped<IDeleteModuleUseCase, DeleteModuleUseCase>();
+            
             return services;
         }
 

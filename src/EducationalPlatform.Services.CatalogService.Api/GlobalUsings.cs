@@ -13,6 +13,11 @@ global using EducationalPlatform.Services.CatalogService.Application.UseCases.Co
 global using EducationalPlatform.Services.CatalogService.Application.UseCases.Courses.GetCourse;
 global using EducationalPlatform.Services.CatalogService.Application.UseCases.Courses.ListCourses;
 global using EducationalPlatform.Services.CatalogService.Application.UseCases.Courses.UpdateCourse;
+global using EducationalPlatform.Services.CatalogService.Application.UseCases.Modules.CreateModule;
+global using EducationalPlatform.Services.CatalogService.Application.UseCases.Modules.DeleteModule;
+global using EducationalPlatform.Services.CatalogService.Application.UseCases.Modules.GetModule;
+global using EducationalPlatform.Services.CatalogService.Application.UseCases.Modules.ListModules;
+global using EducationalPlatform.Services.CatalogService.Application.UseCases.Modules.UpdateModule;
 global using EducationalPlatform.Services.CatalogService.Domain.Models;
 global using FluentValidation;
 global using Microsoft.AspNetCore.Diagnostics;
