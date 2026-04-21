@@ -34,6 +34,6 @@ public class CourseRepository(IDbConnectionFactory factory) : ICourseRepository
     {
         using var connection = factory.CreateConnection();
         
-        return await connection.QueryAsync<Course>(Queries.GetAllCourse);
+        return await connection.QueryAsync<Course>(Queries.GetAllCourses);
     }
 }

@@ -3,7 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services
     .AddOpenApi()
     .AddApplication()
-    .AddInfrastructure(builder.Configuration)
+    .AddInfrastructure()
     .AddProblemDetails()
     .AddExceptionHandler<ValidationExceptionHandler>()
     .AddExceptionHandler<GlobalExceptionHandler>()
